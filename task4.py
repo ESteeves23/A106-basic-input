@@ -16,3 +16,12 @@
 # r = 3
 # h = 5
 # sa = 83.2297607912
+import math
+radius = float(input("What is the value of the radius?"))
+height = float(input("What is the value of the height?"))
+l = math.sqrt(radius**2+height**2)
+csa = math.pi*radius*l
+BaseArea = float
+BaseArea = math.pi*radius**2
+tsa = csa + BaseArea
+print(f"The tsa is {tsa}")
